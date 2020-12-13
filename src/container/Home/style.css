@@ -1,0 +1,121 @@
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+#homeBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 60px;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#homeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#bigArticle, .smallArticle, .creator, .topic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bigArticles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+#smallArticles {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px;
+}
+
+#homeLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 68%;
+}
+
+#homeRight {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #c7c7c7;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 32%;
+}
+
+#creators, #topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+}
+
+#creatorsTitle {
+  margin-top: 0;
+}
+
+#creatorsTitle, #topicsTitle {
+  font-weight: bold;
+}
+
+#topicsTitle {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */

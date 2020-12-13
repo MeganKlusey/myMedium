@@ -1,0 +1,72 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#homeBody {
+    display: flex;
+    padding: 15px 60px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+#homeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#bigArticle, .smallArticle, .creator, .topic{
+    display: flex;
+}
+
+#bigArticles {
+    display: flex;
+    width: 60%;
+}
+
+#smallArticles {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+#homeLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 68%;
+}
+
+#homeRight {
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #c7c7c7;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    width: 32%;
+}
+
+#creators, #topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+#creatorsTitle {
+    margin-top: 0;
+}
+
+#creatorsTitle, #topicsTitle {
+    font-weight: bold;
+}
+
+#topicsTitle {
+    margin-top: 40px;
+}
