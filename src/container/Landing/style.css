@@ -1,0 +1,68 @@
+#landingDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#landingH1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #2c2c2c;
+  font-weight: 700;
+}
+
+#landingH2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 80px;
+  width: 85%;
+  color: #2c2c2c;
+}
+
+#landingButton {
+  background-color: #03a87c;
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
+  height: 70px;
+  font-size: 20px;
+  width: 350px;
+  margin: auto;
+  display: block;
+}
+
+#landingButton:hover {
+  background-color: #029e74;
+  cursor: pointer;
+}
+
+#landingButton:focus {
+  outline: none;
+}
+
+#landingP {
+  text-align: center;
+}
+
+#landingA {
+  display: inline-block;
+  color: #03a87c;
+  text-decoration: none;
+  text-align: center;
+}
+
+#landingA:hover {
+  color: #029e74;
+}
+
+#landingA2 {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
