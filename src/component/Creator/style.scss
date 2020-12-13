@@ -1,0 +1,31 @@
+#creatorDiv {
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#creatorName {
+    font-weight: 600;
+}
+
+#creatorDiv p {
+    margin: 0;
+}
+
+#creatorBtn {
+    background-color: #ffffff;
+    border: 1px solid #03a87c;
+    border-radius: 4px;
+    color: #03a87c;
+    cursor: pointer;
+    height: 35px;
+    width: 70px;
+}
+
+#creatorProfA {
+    cursor: pointer;
+    text-decoration: none;
+    color: #03a87c;
+}

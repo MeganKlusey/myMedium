@@ -1,0 +1,36 @@
+#bigArticleDiv {
+    width: 100%;
+}
+
+#bigArticleDiv p{
+    margin: 0;
+}
+
+#bigArticleImg {
+    width: 100%;
+    height: auto;
+}
+
+#title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#bigArticleTitleA {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+#author {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#authorSpan {
+    font-weight: 600;
+}
+
+#date {
+    font-size: 12px;
+}
